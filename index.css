@@ -1,0 +1,104 @@
+body {
+    background: #213C57;
+    background: -moz-radial-gradient(center, #213C57 0%, #213C57 24%, #1B2838 100%);
+    background: -webkit-radial-gradient(center, #213C57 0%, #213C57 24%, #1B2838 100%);
+    background: radial-gradient(ellipse at center, #213C57 0%, #213C57 24%, #1B2838 100%);
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.menu > a:hover {
+    color: #FFFFFF;
+}
+
+h1, h2 {
+    color: #C5C3C0;
+    font-size: 35pt;
+    margin-left: 200px;
+}
+
+h3 {
+    color: #C5C3C0;
+    font-size: 38pt;
+}
+
+.header {
+    background-color: #171A21;
+    font-size: 45pt;
+    color: #C5C3C0;
+    margin-top: 0%;
+    padding-left: 14px;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.text_main {
+    display: flex;
+    justify-content: center;
+    font-size: 35pt;
+    width: auto;
+    align-items: center;
+}
+
+
+.blue {
+    background-color: #213C57;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    animation-name: linkAni;
+    animation-duration: 2s;
+}
+
+li > a {
+    color: #AFEEFF;
+    font-size: 22pt;
+}
+
+li > a:hover {
+    color: #FFFFFF;
+}
+
+.text {
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 22pt;
+}
+
+.content {
+    width: auto;
+    background: #1C2A3B;
+    background: -moz-linear-gradient(top, #1C2A3B 0%, #213C57 50%, #1C2A3B 100%);
+    background: -webkit-linear-gradient(top, #1C2A3B 0%, #213C57 50%, #1C2A3B 100%);
+    background: linear-gradient(to bottom, #1C2A3B 0%, #213C57 50%, #1C2A3B 100%);
+    margin-top: 0px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.links > img:hover {
+    border-bottom: 2px solid #AFEEFF;
+    background-color: transparent;
+}
+
+.footer {
+    font-size: 18pt;
+    color: #C5C3C0;
+    margin-top: 15px;
+    padding-left: 14px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes linkAni {
+    from {background-color: transparent;}
+    to {background-color: #213C57;}
+  }
+  
